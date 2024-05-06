@@ -11,10 +11,13 @@ REGOLE
  Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino.
 */
 
-/*  I principali datatype sono
+/*
+ I principali datatype sono:
  stringa: i valori stringa vengono racchiusi all'interno degli apici es. "Mirko"
  numero: i valori numero non hanno bisogno di apici
- booleano: gli unici due valori che possiamo assegnare sono true o false */
+ booleano: gli unici due valori che possiamo assegnare sono true o false 
+ Vengono utilizzati per assegnare nomi, valori o stati a dei “contenitori” 
+ */
 
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
@@ -66,7 +69,12 @@ console.log("Sottraszione", numero3 - nome)
  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
 */
 
-let name1 = "jhon"
-let name2 = "Jhon"
+const name1 = "jhon"
+const name2 = "Jhon"
 console.log("I due nomi sono uguali?", name1===name2)
 console.log("I due nomi sono uguali?",!(name1===name2))
+
+
+const lowerCaseString = name2.toLowerCase();
+console.log("Conversione nome minuscolo:", lowerCaseString);
+console.log("I due nomi sono uguali?", name1===lowerCaseString)
