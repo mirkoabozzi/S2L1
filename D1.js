@@ -32,7 +32,9 @@ console.log("Il mio nome è:", myName)
 
 let numero1 = 12
 let numero2 = 20
+const somma = numero1+numero2
 console.log("Il risultato è:", numero1 + numero2)
+console.log("Il risultato è:", somma)
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
@@ -61,7 +63,9 @@ console.log("Il mio cognome è:", myName)
 */
 
 let numero3 = 4
+const sottrazione = numero3 - nome
 console.log("Sottraszione", numero3 - nome)
+console.log("Sottrazione", sottrazione)
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
